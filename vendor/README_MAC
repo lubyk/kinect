@@ -1,0 +1,23 @@
+
+To update binary libs from openni:
+
+====== OpenNI Binaries
+
+1. Download binaries from openni: http://75.98.78.94/Downloads/OpenNIModules.aspx
+    (mac only in unstable as of 2012-02-15)
+2. Copy 'Include' folder into kinect/vendor (replacing existing content)
+3. Copy contents of 'Lib' into 'macosx'
+
+====== OpenNI Compliant Hardware Binaries
+
+1. Downloads binaries from openni (same url, unstable)
+2. Copy contents of 'Lib' into 'macosx'
+
+====== OpenNI Compliant Middleware Binaries
+
+1. Downloads binaries from openni (same url, unstable)
+2. Copy dylib files from 'Bin' into 'macosx'
+
+====== Relocate dylibs
+4. From the current directory (kinect/vendor), run update_dylib_mac.sh
+
